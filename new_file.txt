@@ -1,0 +1,57 @@
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe (bhushan)
+$ git clone https://github.com/bhushanbamane/mayur_pro.git
+Cloning into 'mayur_pro'...
+warning: You appear to have cloned an empty repository.
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe (bhushan)
+$ git init
+Initialized empty Git repository in D:/NEW CHATURBHUJ/rewe/.git/
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe (master)
+$ dr
+bash: dr: command not found
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe (master)
+$ dir
+mayur_pro
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe (master)
+$ cd mayur_pro
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe/mayur_pro (main)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe/mayur_pro (main)
+$ touch new_file.txt
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe/mayur_pro (main)
+$ git add new_file.txt
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe/mayur_pro (main)
+$ git commit -m "first commit"
+[main (root-commit) afd9feb] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new_file.txt
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe/mayur_pro (main)
+$ git branch
+* main
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe/mayur_pro (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/bhushanbamane/mayur_pro.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Bhushan@LAPTOP-VQI23F82 MINGW64 /d/NEW CHATURBHUJ/rewe/mayur_pro (main)
+$
